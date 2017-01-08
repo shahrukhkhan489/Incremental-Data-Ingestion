@@ -6,7 +6,6 @@ A customer approaches you and wants to have this public dataset (https://data.me
 What you need to do:
 
 1.       Use http://hortonworks.com/products/sandbox/
-
 2.       Use https://www.elastic.co/products/elasticsearch or whole ELK stack
 
 3.       Set up some way of scheduling ingest
