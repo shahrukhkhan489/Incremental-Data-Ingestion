@@ -14,6 +14,7 @@ What you need to do:
  - Allow access to ingested data only for “hive-ingest-users” group
  - Show us cluster performance stats
  
+ 
  #### OPTIONAL
  - Provide way for doing transformation after the ingest into Hive
  - Provide way for data retention – i.e. how to move older data to lower redundancy(cheaper) storage and eventually delete them
