@@ -1,0 +1,2 @@
+type=command
+command=sh /home/hive-ingest-users/ingestion-scripts/1-create_base_table_first_time.sh

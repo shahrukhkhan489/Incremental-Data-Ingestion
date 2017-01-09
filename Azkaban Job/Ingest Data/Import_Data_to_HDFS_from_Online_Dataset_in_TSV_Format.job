@@ -1,0 +1,2 @@
+type=command
+command=sh /home/hive-ingest-users/ingestion-scripts/2.1-download_data_in_tsv_format.sh

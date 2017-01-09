@@ -1,0 +1,4 @@
+type=command
+
+No_of_Days_of_Data_requiring_Higher_Cost_storage=30
+command=sh /home/hive-ingest-users/ingestion-scripts/3.1-lower_redundancy_storage.sh ${No_of_Days_of_Data_requiring_Higher_Cost_storage}

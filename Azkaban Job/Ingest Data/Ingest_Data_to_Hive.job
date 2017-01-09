@@ -1,0 +1,3 @@
+type=command
+command=echo "Data Ingestion to Hive Completed Completed"
+dependencies=Create_Base_Table_from_Merged_Table

@@ -1,0 +1,3 @@
+type=command
+command=sh /home/hive-ingest-users/ingestion-scripts/2.2-ingest_data_in_hive_table_from_tsv.sh
+dependencies=Import_Data_to_HDFS_from_Online_Dataset_in_TSV_Format

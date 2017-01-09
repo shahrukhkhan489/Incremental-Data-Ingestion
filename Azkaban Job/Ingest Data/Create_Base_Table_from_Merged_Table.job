@@ -1,0 +1,3 @@
+type=command
+command=sh /home/hive-ingest-users/ingestion-scripts/2.4-create_base_table_from_reconcile_view_merged_table.sh
+dependencies=Create_Merged_Table_from_New_and_Old_Records
