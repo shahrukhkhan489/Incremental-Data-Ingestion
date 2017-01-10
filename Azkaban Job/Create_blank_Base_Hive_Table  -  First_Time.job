@@ -1,2 +1,2 @@
 type=command
-command=sudo su - sh hive-ingest-users /home/hive-ingest-users/ingestion-scripts/1-create_base_table_first_time.sh
+command=su - hive-ingest-users -c "sh /home/hive-ingest-users/ingestion-scripts/1-create_base_table_first_time.sh"

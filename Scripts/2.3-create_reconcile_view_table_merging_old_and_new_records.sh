@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cat > reporting_table.hql <<EOF
+cat > ~/reporting_table.hql <<EOF
 DROP TABLE reporting_table;
 CREATE TABLE reporting_table AS
 SELECT * 
@@ -37,5 +37,5 @@ FROM
 		WHERE o.cms_certification_number_ccn is NULL
 ) unionResult;
 EOF
-hive -f reporting_table.hql;
-rm -rf reporting_table.hql;
+hive -f ~/reporting_table.hql;
+rm -rf ~/reporting_table.hql;

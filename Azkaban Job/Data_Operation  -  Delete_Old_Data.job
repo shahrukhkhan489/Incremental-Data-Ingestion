@@ -1,4 +1,4 @@
 type=command
 
 No_of_Days_of_Data_to_store=90
-command=sh /home/hive-ingest-users/ingestion-scripts/3.2-delete_old_data ${No_of_Days_of_Data_to_store}
+command=su - hive-ingest-users -c "sh /home/hive-ingest-users/ingestion-scripts/3.2-delete_old_data.sh ${No_of_Days_of_Data_to_store}"

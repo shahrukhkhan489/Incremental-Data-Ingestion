@@ -4,6 +4,8 @@ filename="output.tsv"
 dt=`date +%F`;
 directory="/user/hive-ingest-users/data";
 
+cd ~/;
+
 wget -O webpage.html https://data.medicare.gov/browse/embed?category=Home+Health+Compare
 snapshot_version=`sed -n 's/.*href="\([^"]*\).*/\1/p' webpage.html | grep  Home-Health-Care-Agencies | sort | uniq | cut -d'/' -f 6-`
 rm -rf webpage.html;
