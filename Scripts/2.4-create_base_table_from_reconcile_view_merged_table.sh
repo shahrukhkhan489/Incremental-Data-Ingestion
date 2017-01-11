@@ -7,3 +7,5 @@ EOF
 
 hive -f ~/recreate_base_table.hql;
 rm -rf ~/recreate_base_table.hql;
+
+sleep 30s;
