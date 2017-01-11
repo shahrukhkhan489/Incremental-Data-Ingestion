@@ -1,0 +1,2 @@
+type=command
+command=su - hive-ingest-users -c "sh /home/hive-ingest-users/ingestion-scripts/1.2-create_elastic_search_ingestion_table.sh"

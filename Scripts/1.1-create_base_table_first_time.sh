@@ -4,11 +4,11 @@ cat > ~/createtablequery.hql <<EOF
 DROP TABLE base_table;
 CREATE TABLE IF NOT EXISTS base_table(
 		State CHAR(2),
-		CMS_Certification_Number_CCN INT,
+		CMS_Certification_Number_CCN BIGINT,
 		Provider_Name STRING,
 		Address STRING,
 		City STRING,
-		Zip INT,
+		Zip BIGINT,
 		Phone STRING,
 		Type_of_Ownership STRING,
 		Offers_Nursing_Care_Services STRING,

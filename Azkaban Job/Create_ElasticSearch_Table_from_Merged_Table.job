@@ -1,0 +1,3 @@
+type=command
+command=su - hive-ingest-users -c "sh /home/hive-ingest-users/ingestion-scripts/2.5-index_to_elasticsearch_from_merged_table.sh"
+dependencies=Create_Merged_Table_from_New_and_Old_Records
