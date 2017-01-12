@@ -75,7 +75,7 @@ how_often_home_health_patients_who_have_had_a_recent_hospital   string,
 footnote_for_how_often_home_health_patients_who_have_had_a_recent_hospital      string,
 Footnote string)
 STORED BY 'org.elasticsearch.hadoop.hive.EsStorageHandler'
-TBLPROPERTIES('es.resource' = 'radio/ingestion');
+TBLPROPERTIES('es.resource' = 'medicaldata/ingestion');
 EOF
 hive -f ~/createtablequery.hql;
 rm -rf ~/createtablequery.hql;
