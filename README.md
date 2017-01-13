@@ -26,7 +26,7 @@ What you need to do:
 
   #### Architecture
 
- ![Solution Architecture](https://github.com/shahrukhkhan489/Incremental-Data-Ingestion/blob/master/Pics/Architecture.PNG)  
+ ![Solution Architecture](https://github.com/shahrukhkhan489/Incremental-Data-Ingestion/blob/master/Pics/Architecture.png)  
  
  #### Data Ingestion - Azkaban - Scheduling Jobs
  
