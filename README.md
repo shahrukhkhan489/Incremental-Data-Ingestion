@@ -25,24 +25,24 @@ What you need to do:
  
  ##### Data Ingestion - Azkaban - Scheduling Jobs
  
-![Azkaban Project / Flows](Pics/Azkaban-Project.png) 
+![Azkaban Project / Flows](https://github.com/shahrukhkhan489/Incremental-Data-Ingestion/blob/master/Pics/Azkaban-Project.png) 
 
-![Executing Ingestion Process](https://github.com/shahrukhkhan489/Incremental-Data-Ingestion/tree/master/Pics/parallel-execution.png) 
+![Executing Ingestion Process](https://github.com/shahrukhkhan489/Incremental-Data-Ingestion/blob/master/Pics/parallel-execution.png) 
  
-![Time Stastics - Ingestion Process](https://github.com/shahrukhkhan489/Incremental-Data-Ingestion/tree/master/Pics/parallel-execution-time-taken.png) 
+![Time Stastics - Ingestion Process](https://github.com/shahrukhkhan489/Incremental-Data-Ingestion/blob/master/Pics/parallel-execution-time-taken.png) 
 
  ##### Elasticsearch - Kibana
  
-![ElasticSearch Table](https://github.com/shahrukhkhan489/Incremental-Data-Ingestion/tree/master/Pics/Kibana-ElasticSearch.png) 
+![ElasticSearch Table](https://github.com/shahrukhkhan489/Incremental-Data-Ingestion/blob/master/Pics/Kibana-ElasticSearch.png) 
 
  ##### Splunk - Records Logs
 
-![Splunk](https://github.com/shahrukhkhan489/Incremental-Data-Ingestion/tree/master/Pics/Splunk-Records-Count.png) 
+![Splunk](https://github.com/shahrukhkhan489/Incremental-Data-Ingestion/blob/master/Pics/Splunk-Records-Count.png) 
 
  ##### Cluster Performance Metrics
  
- ![Ambari - Cluster Performance](https://github.com/shahrukhkhan489/Incremental-Data-Ingestion/tree/master/Pics/Cluster-Performance-Ambari.png) 
+ ![Ambari - Cluster Performance](https://github.com/shahrukhkhan489/Incremental-Data-Ingestion/blob/master/Pics/Cluster-Performance-Ambari.png) 
  
- ![Ambari - HDFS Performance](https://github.com/shahrukhkhan489/Incremental-Data-Ingestion/tree/master/Pics/Cluster-Performance-HDFS.png) 
+ ![Ambari - HDFS Performance](https://github.com/shahrukhkhan489/Incremental-Data-Ingestion/blob/master/Pics/Cluster-Performance-HDFS.png) 
  
- ![Ambari - YARN Performance](https://github.com/shahrukhkhan489/Incremental-Data-Ingestion/tree/master/Pics/Cluster-Performance-Yarn.png) 
+ ![Ambari - YARN Performance](https://github.com/shahrukhkhan489/Incremental-Data-Ingestion/blob/master/Pics/Cluster-Performance-Yarn.png) 
