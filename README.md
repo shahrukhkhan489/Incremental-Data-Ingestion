@@ -16,14 +16,14 @@ What you need to do:
  - Allow access to ingested data only for “hive-ingest-users” group
  - Show us cluster performance stats
  
- #### OPTIONAL
+ ### OPTIONAL
  - Provide way for doing transformation after the ingest into Hive
  - Provide way for data retention – i.e. how to move older data to lower redundancy(cheaper) storage and eventually delete them
 
 
- #### Solution Screenshots
+ ### Solution Screenshots
  
- ##### Data Ingestion - Azkaban - Scheduling Jobs
+ #### Data Ingestion - Azkaban - Scheduling Jobs
  
 ![Azkaban Project / Flows](https://github.com/shahrukhkhan489/Incremental-Data-Ingestion/blob/master/Pics/Azkaban-Project.PNG) 
 
@@ -31,15 +31,15 @@ What you need to do:
  
 ![Time Stastics - Ingestion Process](https://github.com/shahrukhkhan489/Incremental-Data-Ingestion/blob/master/Pics/parallel-execution-time-taken.PNG) 
 
- ##### Elasticsearch - Kibana
+ #### Elasticsearch - Kibana
  
 ![ElasticSearch Table](https://github.com/shahrukhkhan489/Incremental-Data-Ingestion/blob/master/Pics/Kibana-ElasticSearch.PNG) 
 
- ##### Splunk - Records Logs
+ #### Splunk - Records Logs
 
 ![Splunk](https://github.com/shahrukhkhan489/Incremental-Data-Ingestion/blob/master/Pics/Splunk-Records-Count.PNG) 
 
- ##### Cluster Performance Metrics
+ #### Cluster Performance Metrics
  
  ![Ambari - Cluster Performance](https://github.com/shahrukhkhan489/Incremental-Data-Ingestion/blob/master/Pics/Cluster-Performance-Ambari.PNG) 
  
