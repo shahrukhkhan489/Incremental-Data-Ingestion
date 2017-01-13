@@ -25,7 +25,7 @@ What you need to do:
  
  ##### Data Ingestion - Azkaban - Scheduling Jobs
  
-![Azkaban Project / Flows](https://github.com/shahrukhkhan489/Incremental-Data-Ingestion/tree/master/Pics/Azkaban-Project.png) 
+![Azkaban Project / Flows](Pics/Azkaban-Project.png) 
 
 ![Executing Ingestion Process](https://github.com/shahrukhkhan489/Incremental-Data-Ingestion/tree/master/Pics/parallel-execution.png) 
  
