@@ -10,6 +10,7 @@ What you need to do:
  - As result the customer wants to
  
     1) see simple query on Hive showing date histogram(e.g. daily) with number of new entries 
+ 
     2) query elastic index on analyzed as well as non analyzed fields
 
  - Add new user with the admin permissions and ban connecting to server as root, only admins can use sudo
@@ -22,6 +23,10 @@ What you need to do:
 
 
  ### Solution Screenshots
+
+  #### Architecture
+
+ ![Solution Architecture](https://github.com/shahrukhkhan489/Incremental-Data-Ingestion/blob/master/Pics/Architecture.PNG)  
  
  #### Data Ingestion - Azkaban - Scheduling Jobs
  
