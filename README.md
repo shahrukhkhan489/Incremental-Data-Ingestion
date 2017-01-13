@@ -37,6 +37,8 @@ What you need to do:
 
  #### Splunk - Records Logs
 
+![Splunk](https://github.com/shahrukhkhan489/Incremental-Data-Ingestion/blob/master/Pics/splunk-data-logs-files.PNG) 
+
 ![Splunk](https://github.com/shahrukhkhan489/Incremental-Data-Ingestion/blob/master/Pics/Splunk-Records-Count.PNG) 
 
  #### Cluster Performance Metrics
