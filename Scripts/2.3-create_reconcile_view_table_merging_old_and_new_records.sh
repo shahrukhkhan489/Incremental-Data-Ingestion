@@ -1,5 +1,7 @@
 #!/bin/bash
 
+dt=`date +%F`;
+
 cat > ~/reporting_table.hql <<EOF
 DROP TABLE reporting_table;
 CREATE TABLE reporting_table AS
@@ -38,4 +40,13 @@ FROM
 ) unionResult;
 EOF
 hive -f ~/reporting_table.hql;
-rm -rf ~/reporting_table.hql;
+
+
+cat > ~/selecttablequery.hql <<EOF
+SELECT COUNT(*) 
+FROM reporting_table;
+EOF
+
+echo "$dt : `hive -f ~/selecttablequery.hql`"  >> /logs/Total_Records.log;
+
+rm -rf ~/selecttablequery.hql;

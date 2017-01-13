@@ -1,4 +1,0 @@
-type=command
-
-Date_of_Query_YYYY-MM-DD=2017-01-10
-command=su - hive-ingest-users -c "sh /home/hive-ingest-users/ingestion-scripts/4-display_data_from_particular_date.sh ${Date_of_Query_YYYY-MM-DD}"

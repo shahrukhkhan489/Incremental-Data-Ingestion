@@ -1,3 +1,3 @@
 type=command
 command=su - hive-ingest-users -c "sh /home/hive-ingest-users/ingestion-scripts/2.3-create_reconcile_view_table_merging_old_and_new_records.sh"
-dependencies=Conversion_from_TSV_to_Hive_table
+dependencies=Create_Logs_of_Records_Updated
