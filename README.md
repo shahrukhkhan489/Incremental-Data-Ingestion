@@ -26,7 +26,9 @@ What you need to do:
 
   #### Architecture
 
- ![Solution Architecture](https://github.com/shahrukhkhan489/Incremental-Data-Ingestion/blob/master/Pics/Architecture.png)  
+ ![Solution Architecture](https://github.com/shahrukhkhan489/Incremental-Data-Ingestion/blob/master/Pics/Architecture.png)
+ 
+ Upsert Algorithm used for Incremental Update on Hive Table - [FOUR STEPS STRATEGY FOR INCREMENTAL UPDATES IN APACHE HIVE ON HADOOP](http://hortonworks.com/blog/four-step-strategy-incremental-updates-hive/)
  
  #### Data Ingestion - Azkaban - Scheduling Jobs
  
